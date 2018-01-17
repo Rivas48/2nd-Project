@@ -1,0 +1,416 @@
+h1{
+	text-align: center;
+	width:320px;
+	padding: 0 0 0 0px;
+}
+
+ul{
+	list-style:none;
+	width:320px;
+	padding:0;
+	text-decoration: none;
+}
+
+li{
+
+	text-align: center;
+	font-size: small;
+}
+
+img{
+	width:100%;
+}
+
+p{
+	width:100%;
+}
+body{
+
+}
+a{
+	text-decoration: none;
+}
+
+.profile-image img{
+	width:180px;
+	margin-left: 70px;
+}
+
+.profile-image p{
+	text-align: center;
+	width:260px;
+	margin-left: 30px;
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+
+.header{
+	margin:50px 0px;
+}
+
+.col{
+
+}
+
+.col img {
+	width:300px;
+	padding-left: 10px;
+}
+
+.col h1 {
+	width:310px;
+	font-size:large;
+}
+
+.col p{
+	width:290px;
+	margin-left:15px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.wrapper{
+	width:320px;
+	background-color:#F5F5F5;
+}
+
+.wrapper h1{
+	width:290px;
+	margin:140px 0 30px 15px;
+	text-align: center;
+}
+
+.wrapper p{
+	width:290px;
+	text-align: center;
+	margin:10px 0 30px 15px;
+}
+
+.email{
+	padding-bottom:60px;
+}
+
+.phone{
+	margin:0 0 0 0;
+}
+
+.footer-wrapper2 {
+	display:none;
+}
+
+.footer-wrapper{
+	width:270px;
+	border-top: solid lightgrey 1px;
+	margin-left: 20px;
+}
+
+.footer-wrapper ul{
+	width:320px;
+
+}
+
+.footer-wrapper li{
+	display:inline-block;
+	margin-left: -10px;
+}
+
+.link{
+	margin-right: 40px;
+	float:right;
+}
+
+.main-header{
+	background-color:#F5F5F5;
+	width:320px;
+}
+
+
+@media (min-width:768px) {
+
+
+h1{
+	width:700px;
+	
+}
+ul{
+	list-style:none;
+	width:700px;
+	margin:0 0px 0 0px;
+	padding:0;
+	display:inline-flex;
+}
+
+li{
+	width:90px;
+	padding: 0 20px 0 0px;
+	text-align: center;
+	font-size: small;
+	
+}
+
+img{
+	width:768px;
+}
+
+p{
+	width:768px;
+}
+
+div.main-header{
+	width:768px;
+}
+
+.container ul{
+	margin-left:180px;
+}
+
+.profile-image{
+	width:768px;
+}
+
+.profile-image img{
+	width:200px;
+	float:right;
+	margin:0 90px 0 0;
+}
+.profile-image p{
+	width:300px;
+	text-align: left;
+}
+
+.header{
+	width:680px;
+}	
+
+.col{
+	width:350px;
+	float:left;
+
+}
+
+.col img {
+	width:340px;
+	padding-right: 20px;
+}
+
+.col h1 {
+	width:360px;
+}
+
+.col p{
+	width:260px;
+	margin-left: 40px;
+
+}
+
+.wrapper{
+	width:768px;
+	display:inline;
+
+}
+
+.wrapper h1{
+	width:670px;
+}
+
+.wrapper p{
+	width:395px;
+	padding-left: 140px;
+}
+
+.footer-wrapper{
+	display:none;
+}
+
+.footer-wrapper2 {
+	width:730px;
+	display:inline-block;
+	border-top: solid lightgrey 1px;
+	margin-left: 20px;
+}
+
+.footer-wrapper2 ul{
+	display:inline-flex;
+	float: left;
+	margin:0px 0px;
+}
+
+.name-line{
+	padding-left: 20px;
+}
+.nav-line{
+	padding-left:360px;
+}
+
+
+}
+
+
+@media (min-width: 1024px) {
+
+h1{
+	float:left;
+	width:350px;
+
+}
+
+ul{
+	float: right;
+	width:300px;
+	padding-top: 40px;
+}
+
+li{
+	padding: 0;
+	margin:0;
+
+}
+
+img{
+	
+}
+
+p{
+	margin:0;
+	padding:0;
+}
+
+div.main-header{
+	width:1024px;
+}
+
+div.section{
+
+}
+
+.main-header{
+	width:1024px;
+}
+
+.container{
+	width:1024px;
+	height:80px;
+}
+
+.section{
+	width:1024px;
+	height:1200px;
+	background-color: white;
+}
+
+.wrapper{
+	width:1024px;
+	height:768px;
+}
+
+
+
+.container ul{
+	padding-bottom: 10px;
+	margin-right: 60px;
+}
+
+.profile-image{
+	width:1024px;
+	height:300px;
+}
+.profile-image img{
+	width:390px;
+	margin:0 90px 0 0 ;
+
+}
+.profile-image p{
+	width:360px;
+	margin:0 0 0 90px;
+}
+
+p .welcome{
+	width:1024px;
+	padding: 0;
+	margin-top:0;
+
+}
+.header{
+	width:1024px;
+}
+
+.col{
+	width:325px;
+	float:left;
+
+}
+
+.col img {
+	width:310px;
+	float:left;
+	padding-left:10px; 
+}
+
+
+.wrapper{
+	background-color:#F5F5F5 ;
+	min-height:10px;
+	max-height:100px ;
+
+}
+.wrapper2{
+	
+	max-height: 200px;
+}
+
+.wrapper h1{
+	width:1024px;
+	max-height:300px;
+	background-size: 300px 300px;
+	
+
+}
+
+.wrapper p{
+	width:385px;
+	margin-left: 170px;
+	
+}
+
+.footer-wrapper{
+	display:none;
+}
+
+.footer-wrapper2 {
+	width:900px;
+	display:inline-block;
+	border-top: solid lightgrey 1px;
+	margin-left: 70px;
+	height:300px;
+	
+
+}
+
+.footer-wrapper2 ul{
+	display:inline-flex;
+	float: left;
+	margin:0px 0px;
+
+}
+
+.footer-wrapper2 li {
+	padding: 0 20px 0 20px;
+}
+
+.name-line{
+	padding-left: 20px;
+	margin-right: 530px;
+}
+.nav-line{
+	padding-left:520px;
+}
+div.wrapper{
+	height: 850px;
+	background-color: white;
+}
+
+div.footer-wrapper2{
+	height: 300px;
+}
+
+}
